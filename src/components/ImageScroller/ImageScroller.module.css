@@ -1,0 +1,35 @@
+.imageScroller {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px;
+    height: 90%;
+}
+
+.imageContainer {
+    filter: brightness(0.7);
+    transition: all 0.1s ease-in-out;
+}
+
+.imageContainer:hover {
+    filter: brightness(1.0);
+    transition: all 0.1s ease-in-out;
+}
+
+.imageBlock {
+    border: 4px #777777 solid;
+    border-radius: 10%;
+    margin: 0.25em;
+    -webkit-box-shadow: 2px 5px 15px 1px rgba(0,0,0,0.76); 
+    box-shadow: 2px 5px 15px 1px rgba(0,0,0,0.76);
+    height: 90%;
+}
+
+.imageTitle {
+    position: relative;
+    top: -50%;
+    text-align: center;
+    transform: rotate(-45deg);
+    text-shadow: 1px 1px #222222;
+}

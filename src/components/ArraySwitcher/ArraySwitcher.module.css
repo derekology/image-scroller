@@ -1,0 +1,9 @@
+.arraySwitcherContainer {
+    text-align: center;
+    font-size: smaller;
+}
+
+.arraySwitcherContainer:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

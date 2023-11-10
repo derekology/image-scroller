@@ -1,0 +1,14 @@
+.imageScroller {
+  height: 75vh;
+  overflow-y: hidden;
+}
+
+.controlPanel {
+  height: 18vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;    
+  align-items: center;
+  overflow-y: hidden;
+}
